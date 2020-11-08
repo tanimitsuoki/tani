@@ -1,0 +1,492 @@
+@charset "utf-8";
+
+html{
+    font-size: 62.5%;/* 16px ×　62.5%　=　10px*/
+
+}
+
+body{
+    color: #333333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    
+
+}
+
+/* CSSメモ
+※marginも同じ
+padding 20px
+上下左右
+padding 20px 50px
+「上下」・「左右」
+padding: 10px 20px 30px; 
+「上」・「左右」・「下」
+padding: 10px 20px 30px 40px;
+「上」・「右」・「下」・「左」
+*/
+
+
+.top{
+    height: auto;
+    text-align: center;
+}
+
+.text-center{
+text-align: center;
+height: auto;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+
+}
+
+/* ヘッダー */
+.navtop{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 150px;
+
+}
+.nav_list{
+ display: flex;
+
+}
+.nav__item{
+  margin: 0 0 0 48px;
+  padding: 0 40px 0 0 ;
+  
+
+}
+
+
+/* トップバナー */
+.top{
+    position: relative;
+    padding: 0 0 60px;
+}
+
+
+.topba{
+    width: 100%;
+    
+
+}
+.site-title{
+    font-weight: bold;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    color: #fff;
+    font-size: 4rem;
+    padding: 0 0 30px 0;
+    letter-spacing: 0.1em;
+    width: 665px;
+}
+
+.top_1{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing: 0.1em;
+    width: 900px;
+}
+
+
+
+/* about */
+.about__title{
+    font-size: 2.4rem;
+    margin: 0 0 30px;
+    font-weight: bold;
+    color: orange;
+
+}
+.about_1{
+    padding: 0 0 40px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.pic{
+    /* flexは横並びにする */
+    display: flex;
+    padding: 0 0px 40px;
+}
+.pic p{
+width: 25%;
+}
+
+.pic p img{
+width: 100%;
+
+}
+
+.about_2{
+    padding: 0 0 40px;
+    text-align: center;
+    margin:auto 0 ;
+    line-height: 1.5;
+}
+
+.about_3{
+    padding: 0 0 40px;
+    text-align: center;
+    margin: auto;
+}
+
+.about_4{
+    padding: 0 0 40px;
+    text-align: center;
+    margin: auto;
+    line-height: 1.5;
+}
+
+/* コース */
+
+.course{
+    font-size: 2.4rem;
+    margin: 0 0 30px;
+    font-weight: bold;
+    color: orange;
+}
+
+.course_deitle{
+   padding: 0 0 40px;
+   text-align: center;
+   line-height: 1.5;
+}
+
+.course_1{
+  display: flex;
+  justify-content: center;
+}
+.course_1_taitl{
+ width: 400px;
+ text-align: left;
+ font-size: 2rem;
+ font-weight: bold;
+ padding: 0 0 30px;
+
+}
+.course_1_tab{
+ padding:100px 0 0 60px;
+ width: 440px;
+}
+
+.courese_1_bun{
+   line-height: 1.5;
+   width: 440px
+0px;
+}
+.pic_1{
+    width: 500px;
+}
+
+.course_2{
+    display: flex;
+    justify-content: center;
+}
+
+.course_2_taitl{
+    width: 400px;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 0 30px;
+}
+
+.course_2_tab{
+    padding:100px 60px 0 0px;
+    width: 440px;
+}
+
+.courese_2_bun{
+    line-height: 1.5;
+    width: 40 0px;
+}
+
+.pic_2{
+ width: 500px;
+
+}
+
+.course_3{
+    display: flex;
+    justify-content: center;
+}
+.course_3_taitl{
+    width: 400px;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 0 30px;
+}
+
+.course_3_tab{
+    padding:100px 0px 0 60px;
+    width: 440px;
+}
+
+.courese_3_bun{
+    line-height: 1.5;
+    width: 40 0px;
+}
+
+ .pic_3{
+   width: 500px;
+
+ }
+
+
+ /* ニュース */
+
+
+ .news__title{
+margin: 0 0 30px;
+font-weight: bold;
+font-size: 2.4rem;
+color: orange;
+}
+.btn{
+display: block;
+width: 214px;
+margin: auto;
+padding: 21px 0;
+background: #1abaff;
+color: #fff;
+font-size: 1.8rem;
+text-align: center;
+
+}
+.news__eye{
+margin: 0 0 24px;
+
+}
+.news__head{
+margin: 0 0 16px;
+line-height: 1.5;
+
+}
+.news__contents{
+padding: 0 5px;
+width: 300px;
+
+}
+
+.news__list{
+display: flex;
+justify-content: space-between;
+width: 960px;
+margin: 0 auto;
+padding: 30px;
+
+}
+.news__item{
+ width: auto;
+ margin: 0 30;
+}
+.news{
+padding: 80px 0;
+
+}
+
+
+
+]
+.bun{
+    line-height: 1.5;
+}
+
+.btn:hover {
+    opacity: 0.3;
+  }
+.news__item:hover {
+    opacity: 0.3;
+  }
+
+/* アクセス */
+
+.map{
+    padding: 0 0 80px 0;
+    text-align: center;
+}
+
+.access_bun{
+    text-align: left;
+    width: 500px;
+    margin: auto;
+
+}
+.access{
+    margin: 0 0 30px;
+    font-weight: bold;
+    font-size: 2.4rem;
+    color: orange;
+
+}
+
+.access_1a{
+margin-left: 80px;
+}
+.access_1{
+ margin: 0 0 30px;
+
+}
+.access_2a{
+    margin-left: 30px;
+    }
+.access_2{
+     margin: 0 0 30px;
+    
+    }
+.access_3a{
+     margin-left: 100px;
+        }
+.access_3{
+    margin: 0 0 30px; 
+        }
+        .access_4a{
+            margin-left: 100px;
+               }
+       .access_4{
+           margin: 0 0 30px; 
+               }
+               .access_5a{
+                margin-left: 90px;
+                   }
+           .access_5{
+               margin: 0 0 120px; 
+                   }
+
+
+/* 問い合わせ */
+.contact-1{
+padding: 0 0 60px;
+text-align: center;
+
+}
+.contact-2{
+padding: 0 0 30px;
+text-align: center;
+line-height: 1.5;
+}
+
+.contact-3{
+padding: 0 0 80px;
+text-align: center;
+line-height: 1.5;
+}
+
+.contact{
+ padding: 80px 0 64px;
+
+
+}
+
+.about_width{
+   width: 705px;
+   margin: auto;
+   }
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 40px;
+
+}
+
+
+.form-title{
+    width: 152px;
+    margin: 0 0px 0 0;
+    padding:16px 40px 0 20px ;
+    font-weight: bold;
+    border-top: solid 2px #bfbfbf;
+    border-right: solid 1px #bfbfbf;
+
+}
+.form-title.check-list{
+    padding:15px 40px 0 20px;
+    width: 152px;
+}
+
+.form-itm{
+    width: 410px;
+    margin:0 0 0px ;
+    padding:8px 40px 8px 8px ;
+    border-top : solid 2px #bfbfbf;
+}
+.syousai{
+    border-bottom: solid 2px#bfbfbf
+
+}
+.form-itm.checkbox{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    height: 200px;
+    font-size: 1.5rem;
+
+    /* 上記CSS参照サイト　https://mamewaza.com/support/blog/howto-use-flex.html */
+
+}
+.form-parts{
+  box-sizing: border-box;
+  width: 100%;
+  padding:8px;
+  border: solid 1px #bfbfbf;
+  font-size: 1.6rem;
+}
+
+.form-parts_1{
+ height: 228px;
+ border-bottom: solid 2px#bfbfbf
+}
+
+.syousai_1{
+    border-bottom: solid 2px#bfbfbf
+
+}
+
+
+/* 送信 */
+.btn-submit{
+    -webkit-appearance: none;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    border: none;
+    display: block;
+    width: 214px;
+    margin: 0 auto 100px;
+    padding: 21px 0;
+    background: #1abaff;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+
+}
+
+/*フッター */
+
+.footer{
+    padding: 24px 0;
+    background-color: #707070;
+
+}
+.copyrights{
+  color:#fff;
+
+}
